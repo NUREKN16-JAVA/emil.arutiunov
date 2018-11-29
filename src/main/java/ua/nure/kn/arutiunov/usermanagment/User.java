@@ -14,6 +14,17 @@ public class User implements Serializable{
 	private String lastName;
 	private Date dateOfBirth;
 	
+	public User(Long id, String firstName, String lastName, Date dateOfBirth) {
+	     this.id = id;
+	     this.firstName = firstName;
+	     this.lastName = lastName;
+	     this.dateOfBirth = dateOfBirth;
+	    }
+	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Long getId() {
 		return id;
 	}

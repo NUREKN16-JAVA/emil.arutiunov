@@ -9,9 +9,9 @@ public class UserTest extends TestCase {
 
     private User user;
 
-    private final String FULL_NAME_GAUGE = "Ivanov, Ivan";
-    private final String FIRST_NAME_GAUGE = "Ivan";
-    private final String LAST_NAME_GAUGE = "Ivanov";
+    private final String FULL_NAME_GAUGE = "Arutiunov, Emil";
+    private final String FIRST_NAME_GAUGE = "Emil";
+    private final String LAST_NAME_GAUGE = "Arutiunov";
     
     private static final int YEAR_OF_BIRTH = 1990;
 
@@ -32,7 +32,7 @@ public class UserTest extends TestCase {
   	private static final int MONTH_OF_BIRTH_3 = 12;
   		
   	//Birthday is tomorrow 
-  	private static final int GAUGE_AGE_4 = 27;
+  	private static final int GAUGE_AGE_4 = 28;
   	private static final int DAY_OF_BIRTH_4 = 23;
   	private static final int MONTH_OF_BIRTH_4 = 11;
   		
